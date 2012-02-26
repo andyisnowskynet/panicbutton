@@ -33,3 +33,4 @@ gem 'rails', '3.0.1'
 gem 'haml'
 gem 'sass'
 gem "capistrano"
+gem "mysql"
