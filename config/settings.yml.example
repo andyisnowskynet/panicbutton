@@ -1,0 +1,4 @@
+development:
+  google_analytics_code: 'UA-xxxxxx-1'
+production:
+  google_analytics_code: 'UA-xxxxxx-1'

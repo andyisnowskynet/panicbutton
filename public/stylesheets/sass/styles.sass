@@ -1,3 +1,17 @@
+//$vintage_tan: #ffd596
+//$vintage_green: #9bb58f
+//$vintage_yellow: #ffa600
+//$vintage_brown: #696153
+//$vintage_gray: #302b2f
+
+$vintage_white: #f2f2f2
+$vintage_gray: #9fa4bf
+$vintage_tan: #bfb6a4
+$vintage_blue: #6e87b2
+$vintage_black: #404040
+
+
+@import url(//fonts.googleapis.com/css?family=Rokkitt:400,700)
 
 =clearfix
   *display: inline-block
@@ -7,3 +21,63 @@
     height: 0
     clear: both
     visibility: hidden
+
+
+// layout
+body
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+  color: $vintage_black
+  background: $vintage_white
+  //background-color: $vintage_tan
+  //background: #fff url(http://www.sxc.hu/pic/m/l/lo/loraw2000/1137740_graph_paper_background_.jpg) 0px -5px repeat
+  
+a
+  text-decoration: none
+  color: $vintage_blue
+.nav
+  @include clearfix
+  position: absolute
+  top: 30px
+  right: 0px
+  margin: 0px
+  text-transform: lowercase
+  li
+    float: left
+    display: inline
+    margin-left: 30px
+.logo
+  font-size: 4em
+  position: absolute
+  top: -16px
+  font-family: georgia
+  text-transform: lowercase
+.header
+  position: relative
+  height: 69px
+.content
+  @include clearfix
+.wrapper
+  margin: 30px auto 0px
+  width: 960px
+  padding: 30px
+  position: relative
+  background: #fff
+  box-shadow: 0px 0px 2px $vintage_gray
+.footer
+  color: $vintage_gray
+  width: 1020px
+  margin: 0px auto 30px
+  padding-top: 5px
+  p
+    margin: 0px
+    text-align: right
+    font-size: 12px
+h1
+  font-weight: 100
+  margin-top: 0px
+  color: $vintage_black
+  font-size: 3em
+
+
+.copy_block
+  margin-bottom: 60px

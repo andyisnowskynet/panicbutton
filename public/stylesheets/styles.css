@@ -1,0 +1,74 @@
+@import url(//fonts.googleapis.com/css?family=Rokkitt:400,700);
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #404040;
+  background: #f2f2f2; }
+
+a {
+  text-decoration: none;
+  color: #6e87b2; }
+
+.nav {
+  *display: inline-block;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  margin: 0px;
+  text-transform: lowercase; }
+  .nav:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+  .nav li {
+    float: left;
+    display: inline;
+    margin-left: 30px; }
+
+.logo {
+  font-size: 4em;
+  position: absolute;
+  top: -16px;
+  font-family: georgia;
+  text-transform: lowercase; }
+
+.header {
+  position: relative;
+  height: 69px; }
+
+.content {
+  *display: inline-block; }
+  .content:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+
+.wrapper {
+  margin: 30px auto 0px;
+  width: 960px;
+  padding: 30px;
+  position: relative;
+  background: white;
+  box-shadow: 0px 0px 2px #9fa4bf; }
+
+.footer {
+  color: #9fa4bf;
+  width: 1020px;
+  margin: 0px auto 30px;
+  padding-top: 5px; }
+  .footer p {
+    margin: 0px;
+    text-align: right;
+    font-size: 12px; }
+
+h1 {
+  font-weight: 100;
+  margin-top: 0px;
+  color: #404040;
+  font-size: 3em; }
+
+.copy_block {
+  margin-bottom: 60px; }
