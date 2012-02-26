@@ -1,0 +1,16 @@
+!!! Strict
+%html
+  %head
+    %title Emergency Ruby Developers | Ruby Panic Button
+    = stylesheet_link_tag 'normalize', 'styles'
+    %meta{:"http-equiv" => "Content-Type", :content => "text/html; charset=utf-8"}/
+    %meta{:name => "description", :content => "Emergency Ruby Web Development Consulting"}
+    != google_analytics_script
+  %body
+    .wrapper
+      .header
+        = link_to "Ruby Panic Button", root_path, :class => "logo"
+      .content= yield
+    .footer
+      %p
+        %span.copyright!= "&copy; #{Time.now.year} Labcoat LLC"
