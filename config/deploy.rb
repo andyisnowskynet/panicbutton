@@ -5,7 +5,7 @@ after "deploy:symlink", "deploy:symlink_htaccess"
 # after "deploy:symlink", "deploy:compile_sass"
 
 set :user, "rubypan"
-set :domain, "http://216.157.102.20/~rubypan/"
+server "rubypanicbutton.com", :app, :web, :db, :primary => true
 set :application, "panicbutton"
 set :repository,  "git@github.com:andyisnowskynet/panicbutton.git"
 set :deploy_to, "~/#{application}"
@@ -25,10 +25,6 @@ set :keep_releases, 2
 set :rails_env,  "production"
 
 
-
-role :web, "216.157.102.20"
-role :app, "216.157.102.20"
-role :db,  "216.157.102.20", :primary => true
 
 
 namespace :deploy do
